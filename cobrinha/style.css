@@ -1,0 +1,44 @@
+*{
+
+    padding: 30px 50px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .red{
+    color: red;
+  }
+  
+  canvas{
+    display: block;
+  }
+  .game{
+      color: rgb(20, 20, 20);
+      background: rgb(140, 114, 165);
+      padding: 9px 500px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-size: 40px;
+
+  }
+  .title{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 20%;
+      background-color: rgba(168, 7, 173, 0.5);
+  }
+  .texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -145%;
+    background-color: rgba(75, 75, 75, 0.2);
+    font-size: 30px;
+  }
+ 
